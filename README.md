@@ -40,6 +40,7 @@ npx expo install react-native-phonepesdk
             saltIndex={1} //default "1"
             amount={1000} //required
             callback={"https://nanostack.io/callback"} //required
+            redirectUrl={"https://nanostack.io/redirect"} //required
             merchantUserId={"USER_ID"} //required
             successCallback={(data) => console.log(data)}
             errorCallback={(data) => console.log(data)}
